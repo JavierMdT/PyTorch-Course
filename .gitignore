@@ -1,0 +1,9 @@
+# Enviorment files
+.env
+
+# Logs
+*.log
+
+# Data
+data
+
