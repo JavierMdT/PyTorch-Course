@@ -1,4 +1,4 @@
-# PyTorch-Course-
+# PyTorch-Course
 I've created this repo as part of my Udemy course progress.  
 It's mainly a personal backup and a way to share what I'm learning 😊.
 
