@@ -8,3 +8,7 @@ I'm still new to the software development world and learning as I go.
 
 This course requires about 52 hours to complete, but taking into consideration i'm doing the "extracurricular" things to maybe it 
 will take me a little more.
+
+Versions: 
+	- Python 3.8.13
+	- PyTorch version: 1.13.1+cu117
