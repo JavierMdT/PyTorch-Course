@@ -1,4 +1,0 @@
-def print_progress(progress: int):
-    left: int = 10 - progress
-    bar: str = progress*"⬜" + left*"⬛"
-    print(f"\rTrain progress: {bar}", end="", flush=True)
