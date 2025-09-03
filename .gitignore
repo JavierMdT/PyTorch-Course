@@ -8,3 +8,4 @@
 .pth
 .pt
 *.data
+__pycache__
