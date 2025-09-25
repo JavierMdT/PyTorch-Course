@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt 
-import torch
+from typing import Optional
 
-def print_progress(progress: int):
+def print_progress(progress: int, extra_str: Optional[str] = None):
     '''
     A simple function to print the progress of a loop
     The progress argument must be between 0 and 10
@@ -11,9 +11,11 @@ def print_progress(progress: int):
     '''
     left: int = 10 - progress
     bar: str = progress*"⬜" + left*"⬛"
-    print(f"\rTrain progress: {bar}", end="", flush=True)
-    
-    
+    if extra_str:
+        print(f"\rTrain progress: {bar} | {extra_str}",end="", flush=True)
+    else:
+        print(f"\rTrain progress: {bar}",end="", flush=True)
+        
     
 def plot_pred_images(preds:list,
                      y: list,
